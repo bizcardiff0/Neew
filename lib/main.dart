@@ -24,7 +24,7 @@ class NeewApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-//       theme: ThemeData(fontFamily: 'OpenSans'),
+      theme: ThemeData(fontFamily: 'OpenSans'),
       initialRoute: '/',
       routes: {
         '/': (context) => SplashPage(duration: 3, goToPage: const WelcomePage()),
